@@ -9,6 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
 
     <link href="style.css" rel="stylesheet">
+    <script src = "main.js"></script>
 </head>
 
 <body>
@@ -17,15 +18,15 @@
         <hr>
         <h4>After you've spoken a command, click allow as soon as the popup appears.</h4>
         <h3>Press start, then click allow for microphone and video. Now, say 'selfie', the software will click a selfie of you and download it onto your device.</h3>
-        <button onclick = "onclick = save()" class = "btn btn-danger">Start</button>
+        <button onclick = "start()" class = "btn btn-danger">Start</button>
         <h4>Press start</h4>
         <label>The following section, is a camera</label>
         <div id = "camera"></div>
         <label>Selfies will be displayed here:</label>
         <div id = "resultShow">
-            <div id = "result1"><img src = "https://cdn.vox-cdn.com/thumbor/KpD8jN8PiuAPDD_PPSji0hIXzls=/0x106:2040x1254/1200x675/cdn.vox-cdn.com/uploads/chorus_image/image/70218969/bfarsace_211129_4901_0006.0.jpg" style = "width: 30%;"></div>
-            <div id = "result2"><img src = "https://images.pexels.com/photos/3335016/pexels-photo-3335016.jpeg?auto=compress&cs=tinysrgb&h=566.525&fit=crop&w=633.175&dpr=1" style = "width: 30%;"></div>
-            <div id = "result3"><img src = "https://cdn.mos.cms.futurecdn.net/JN4id4eQ79r4c4JzHVNtH5.jpg" style = "width: 30%;"></div>
+            <div id = "result1"></div>
+            <div id = "result2"></div>
+            <div id = "result3"></div>
         </div>
         <div class = "copyright_footer">Made by AshuCodeZ</div>
     </center>
